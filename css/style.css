@@ -45,7 +45,7 @@ header .wrapper ul {
 header div ul li a {
 padding-left:  1rem;
 text-transform: uppercase;
-color:#000;
+color: #222;
 text-decoration: none;
 font-weight: 550;
 font-size: 1.8rem;
@@ -69,7 +69,6 @@ font-size: 1.266rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 
 .grid {
@@ -106,6 +105,7 @@ grid-template-areas:
 .product-sweet h1 {
 font-size: 3rem;
 font-weight: 450;
+color: #222;
 }
 
 .product-sweet h4 {
@@ -120,7 +120,7 @@ font-weight: 450;
 }
 
 #Sweetheart{
-  padding-bottom:100px;
+  padding-bottom:66px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -133,7 +133,7 @@ font-weight: 450;
 #Sweetheart a:link,
 #Sweetheart a:visited{
       background-color: #000;
-      color: white;
+      color: #fff;
       padding-top: 7.5px;
       padding-bottom: 7.5px;
       padding-left: 19px;
@@ -156,6 +156,7 @@ font-weight: 450;
 text-align: center;
 font-size: 2.5rem;
 font-weight: bold;
+color: #222;
 }
 
 #Behind p {
@@ -213,6 +214,7 @@ align-items: center;
 #Try h2 {
 font-size: 3.2rem;
 font-weight:bolder;
+color: #222;
 }
 
 #Try .Web3-1 article img{
@@ -237,6 +239,7 @@ padding-bottom: 60px;
 .Web3-1 h3{
   font-weight: 740;
   font-size: 2rem;
+  color: #222;
 }
 
 .Web3-1 img:nth-child(1){
@@ -266,11 +269,11 @@ grid-area: div4;
 
 footer {
   text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     padding-top: 12px;
     padding-bottom: 16px;
-    font-size: 1.63rem;
+    font-size: 1.61rem;
 }
 
 
@@ -295,15 +298,16 @@ footer {
   }
   
   .product-sweet p {
-    font-size: 1.25rem;
+    font-size: 1.19rem;
   }
 
   .product-sweet h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
   }
 
   .product-sweet h4{
-    font-size: 1.2rem;
+    font-size: 1.12rem;
   }
 
   .grid {
@@ -336,6 +340,9 @@ footer {
       grid-area: pic-4;
     }
 
+    .Web1-1 {
+      gap: 1rem;
+    }
 
   #Behind .Web2-1 {
       display: grid;
@@ -368,16 +375,16 @@ footer {
   #What h2 {
    text-align: center;
    font-size: 2.5rem;
-   margin-top: 35px;
+   margin-top: 30px;
    margin-bottom: 7px;
   }
 
    #What p {
-    font-size: 1.21rem;
+    font-size: 1.3rem;
   }
 
   #What cite{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   
   #Try .Web3-1{
@@ -386,14 +393,15 @@ footer {
    border-radius: 10px;
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   gap: 0.8em;
+   gap: 1em;
    border-radius: 10px;
    font-size: 1.15rem;
-   padding-bottom: 35px;
+   padding-bottom: 32px;
+   margin: 10.9px;
   }
 
   #Try h3{
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     font-weight:700;
   }
 
@@ -423,8 +431,8 @@ footer {
   }
 
   header div ul li a {
-    font-size: 1.2rem;
-    font-weight: 470;
+    font-size: 1.4rem;
+    font-weight: 420;
   }
 
   .Web1-1{
@@ -443,7 +451,7 @@ footer {
   }
 
   .product-sweet p{
-    font-size: 1.21rem;
+    font-size: 1.26rem;
     padding-bottom: 5px;
   }
 
@@ -490,6 +498,7 @@ footer {
   #Behind h2 {
    margin-top: 40px;
    font-size: 2.5rem;
+   margin-bottom: 5px;
   }
 
   .Web2-1 {
@@ -510,6 +519,10 @@ footer {
   #What h2{
    font-size: 2.5rem;
    margin-top: 40px;
+  }
+
+  #What p{
+    font-size: 1.2rem;
   }
 
   #What .Web2-2 blockquote{
@@ -533,7 +546,7 @@ footer {
   
   #Try h2 {
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 2.2rem;
   }
   
  #Try h3{
@@ -552,6 +565,6 @@ footer {
       }
 
   footer{
-    font-size: 1.15rem;
+    font-size: 1.3rem;
   }
 }
