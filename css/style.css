@@ -165,8 +165,7 @@ font-weight: bold;
 #Behind .Web2-1{
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 30px;
-
+  padding-bottom: 50px
 }
 
 #What{
@@ -189,6 +188,7 @@ display: flex;
   text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
+  padding-top: 14px;
 }
 
 #What p {
@@ -270,7 +270,7 @@ footer {
     color: white;
     padding-top: 12px;
     padding-bottom: 16px;
-    font-size: 1.68rem;
+    font-size: 1.63rem;
 }
 
 
@@ -282,12 +282,16 @@ footer {
   header {
    padding-bottom: 15px;
    padding-left: 10px;
-   padding-right: 15px;
+   padding-right: 20px;
   }
 
   header div ul li a {
     font-size: 1.3rem;
     font-weight: 410;
+  }
+
+  #Sweetheart {
+    padding-bottom: 70px;
   }
   
   .product-sweet p {
@@ -333,15 +337,18 @@ footer {
     }
 
 
-  .Web2-1 {
+  #Behind .Web2-1 {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap:35px;
+      padding-left: 25px;
+      padding-right: 25px;
      }
 
   #Behind h2 {
   text-align: center;
   margin-top: 35px;
+  margin-bottom: 7px;
    }
 
   #Behind p{
@@ -351,17 +358,18 @@ footer {
   .Web2-2{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap:10px
+   gap:8px
     }
 
-  #What .Web2-1 blockquote {
-  margin:10px;
+  #What .Web2-2 blockquote {
+  margin:20px;
   }
 
   #What h2 {
    text-align: center;
    font-size: 2.5rem;
    margin-top: 35px;
+   margin-bottom: 7px;
   }
 
    #What p {
@@ -390,7 +398,7 @@ footer {
   }
 
   #Try h2 {
-    font-size: 2.2rem;
+    font-size: 2.25rem;
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -401,7 +409,7 @@ footer {
 
 
  footer{
-  font-size: 1rem;
+  font-size: 1.2rem;
  }
 
 }
@@ -435,7 +443,7 @@ footer {
   }
 
   .product-sweet p{
-    font-size: 1.23rem;
+    font-size: 1.21rem;
     padding-bottom: 5px;
   }
 
@@ -481,18 +489,16 @@ footer {
 
   #Behind h2 {
    margin-top: 40px;
-   margin-bottom: 5px;
+   font-size: 2.5rem;
   }
 
   .Web2-1 {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 20px;
+   gap: 24px;
   }
 
   #Behind .Web2-1{
-    padding-left: 7px;
-    padding-right: 7px;
     padding-bottom: 45px;
   }
 
@@ -504,13 +510,12 @@ footer {
   #What h2{
    font-size: 2.5rem;
    margin-top: 40px;
-   margin-bottom: 15px;
   }
 
   #What .Web2-2 blockquote{
     padding-left: 5px;
     padding-right: 5px;
-    margin: 2px;
+    margin: 20px;
   }
 
   .Web2-2 {
@@ -519,21 +524,16 @@ footer {
   gap:18px;
    }
 
-   #Try {
-    display: grid;
-    text-align: center;
-    border-radius: 10px;
-    }
-
   #Try {
    display: grid;
    text-align: center;
    border-radius: 10px;
-    }
+   padding-bottom: 10px;
+  }
   
   #Try h2 {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
   }
   
  #Try h3{
@@ -548,7 +548,7 @@ footer {
       gap: 0.725em;
       border-radius: 10px;
       font-size: 1.3rem;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       }
 
   footer{
