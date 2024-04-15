@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+font-family: "Poppins", sans-serif;
+display: grid;
+}
+
+header{
+  padding-left: 10px;
+  padding-right: 25px;
+  padding-bottom: 18px;
+}
+
+.wrapper {
+margin: 0 auto;
+max-width: 1200px;
+}
+
+img{
+width: 100%;
+}
+
+header .wrapper {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+  display: inline-block;
+  width: 120px;
+}
+
+header nav ul {
+display: flex;
+margin: 0;
+} 
+
+header .wrapper ul {
+  list-style-type: none;
+}
+
+header div ul li a {
+padding-left:  1rem;
+text-transform: uppercase;
+color:#000;
+text-decoration: none;
+font-weight: 550;
+font-size: 1.8rem;
+} 
+
+
+h1 {
+font-size: 2.027rem;
+}
+
+h2{
+font-size: 1.802rem
+}
+
+h3{
+font-size: 1.266rem;
+}
+
+
+.Web1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.grid {
+margin: 0;
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-areas: 
+"pic-1 pic-1 pic-1"
+"pic-2 pic-3 pic-4";
+ gap: 1.5rem;
+}
+
+.grid img {
+  border-radius: 10px;
+}
+
+.grid img:nth-child(1){
+  grid-area: pic-1;
+  }
+
+.grid img:nth-child(2){
+  grid-area: pic-2;
+}
+
+.grid img:nth-child(3){
+  grid-area: pic-3;
+}
+
+.grid img:nth-child(4){
+  grid-area: pic-4;
+}
+
+
+.product-sweet h1 {
+font-size: 3rem;
+font-weight: 450;
+}
+
+.product-sweet h4 {
+  font-size: 1.5rem;
+  font-weight:bolder;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+}
+
+.product-sweet p{
+  font-size: 1.47rem;
+}
+
+#Sweetheart{
+  padding-bottom:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#Sweetheart a{
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+#Sweetheart a:link,
+#Sweetheart a:visited{
+      background-color: #000;
+      color: white;
+      padding-top: 7.5px;
+      padding-bottom: 7.5px;
+      padding-left: 19px;
+      padding-right: 19px;
+      font-weight: bolder;
+      font-size: 1rem;
+      margin-top: 40px;
+  }
+
+
+#Behind {
+  background-color: #f8fafc;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+
+#Behind h2 {
+text-align: center;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+#Behind p {
+  font-size: 1.47rem;
+}
+
+#Behind .Web2-1{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+
+}
+
+#What{
+margin-top: 0;
+background-color: #000;
+color: #fff;
+display: flex;
+/* align-items: center; */
+}
+
+#What .Web2-2{
+  padding-bottom: 30px;
+}
+
+#What .Web2-2 blockquote{
+  padding-bottom: 20px;
+}
+
+#What h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#What p {
+  font-size: 1.47rem;
+}
+
+#What cite{
+  font-size: 1.5rem;
+
+}
+
+#Try {
+display: grid;
+text-align: center;
+border-radius: 4px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 62px;
+align-items: center;
+}
+
+#Try h2 {
+font-size: 3.2rem;
+font-weight:bolder;
+}
+
+#Try .Web3-1 article img{
+border-top-left-radius: 7px;
+border-top-right-radius: 7px;
+}
+
+#Try .Web3-1{
+display: grid;
+grid-template-columns:repeat(2,1fr);
+/* grid-column:span; */
+grid-template-areas: 
+"div1 div2"
+"div3 div4";
+gap: 1em;
+margin: 10px;
+font-size: 1.6rem;
+font-weight: 400;
+padding-bottom: 60px;
+}
+
+.Web3-1 h3{
+  font-weight: 740;
+  font-size: 2rem;
+}
+
+.Web3-1 img:nth-child(1){
+grid-area: div1;
+}
+
+.Web3-1 img:nth-child(2){
+grid-area: div2;
+}
+
+.Web3-1 img:nth-child(3){
+grid-area: div3;
+}
+
+.Web3-1 img:nth-child(4){
+grid-area: div4;
+}
+
+#Try{
+  display: contents;
+  align-items: center;
+}
+#Try .Web3-1 article {
+  background-color: #f8fafc;
+  border-radius: 7px;
+}
+
+footer {
+  text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    font-size: 1.68rem;
+}
+
+
+@media only screen and (min-width: 768px)  {
+  img{
+    width: 100%;
+    }
+
+  header {
+   padding-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 15px;
+  }
+
+  header div ul li a {
+    font-size: 1.3rem;
+    font-weight: 410;
+  }
+  
+  .product-sweet p {
+    font-size: 1.25rem;
+  }
+
+  .product-sweet h1 {
+    font-size: 2.4rem;
+  }
+
+  .product-sweet h4{
+    font-size: 1.2rem;
+  }
+
+  .grid {
+    margin: 0;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "pic-1 pic-2"
+    "pic-3 pic-4";
+    gap: 1rem;
+    }
+    
+    .grid img {
+      border-radius: 10px;
+    }
+    
+    .grid img:nth-child(1){
+      grid-area: pic-1;
+      }
+    
+    .grid img:nth-child(2){
+      grid-area: pic-2;
+    }
+    
+    .grid img:nth-child(3){
+      grid-area: pic-3;
+    }
+    
+    .grid img:nth-child(4){
+      grid-area: pic-4;
+    }
+
+
+  .Web2-1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:35px;
+     }
+
+  #Behind h2 {
+  text-align: center;
+  margin-top: 35px;
+   }
+
+  #Behind p{
+    font-size:1.21rem
+  }
+  
+  .Web2-2{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap:10px
+    }
+
+  #What .Web2-1 blockquote {
+  margin:10px;
+  }
+
+  #What h2 {
+   text-align: center;
+   font-size: 2.5rem;
+   margin-top: 35px;
+  }
+
+   #What p {
+    font-size: 1.21rem;
+  }
+
+  #What cite{
+    font-size: 1.2rem;
+  }
+  
+  #Try .Web3-1{
+   display: grid;
+   text-align: center;
+   border-radius: 10px;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 0.8em;
+   border-radius: 10px;
+   font-size: 1.15rem;
+   padding-bottom: 35px;
+  }
+
+  #Try h3{
+    font-size: 1.45rem;
+    font-weight:700;
+  }
+
+  #Try h2 {
+    font-size: 2.2rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  #Try article{
+    padding-bottom: 5px;
+  }
+
+
+ footer{
+  font-size: 1rem;
+ }
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  header{
+  padding-bottom: 20px;
+   padding-left: 10px;
+   padding-right: 30px;
+  }
+
+  header div ul li a {
+    font-size: 1.2rem;
+    font-weight: 470;
+  }
+
+  .Web1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .product-sweet h1{
+    font-size: 2.3rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .product-sweet h4 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .product-sweet p{
+    font-size: 1.23rem;
+    padding-bottom: 5px;
+  }
+
+  #Sweetheart{
+    padding-bottom:70px;
+  }
+
+  #Sweetheart .grid {
+    margin: 0;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "pic-1 pic-2"
+    "pic-3 pic-4";
+     gap: 1.2rem;
+    }
+    
+    .grid img {
+      border-radius: 10px;
+    }
+    
+    .grid img:nth-child(1){
+      grid-area: pic-1;
+      }
+    
+    .grid img:nth-child(2){
+      grid-area: pic-2;
+    }
+    
+    .grid img:nth-child(3){
+      grid-area: pic-3;
+    }
+    
+    .grid img:nth-child(4){
+      grid-area: pic-4;
+    }
+
+  #Behind {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #Behind h2 {
+   margin-top: 40px;
+   margin-bottom: 5px;
+  }
+
+  .Web2-1 {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+  }
+
+  #Behind .Web2-1{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 45px;
+  }
+
+  #What{
+    display: flex;
+    align-items: center;
+  }
+  
+  #What h2{
+   font-size: 2.5rem;
+   margin-top: 40px;
+   margin-bottom: 15px;
+  }
+
+  #What .Web2-2 blockquote{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px;
+  }
+
+  .Web2-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:18px;
+   }
+
+   #Try {
+    display: grid;
+    text-align: center;
+    border-radius: 10px;
+    }
+
+  #Try {
+   display: grid;
+   text-align: center;
+   border-radius: 10px;
+    }
+  
+  #Try h2 {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  
+ #Try h3{
+  font-size: 1.75rem;
+  font-weight: 700;
+ } 
+
+ #Try .Web3-1{
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      /* grid-column:span; */
+      gap: 0.725em;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      padding-bottom: 5px;
+      }
+
+  footer{
+    font-size: 1.15rem;
+  }
+}
